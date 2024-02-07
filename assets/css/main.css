@@ -131,6 +131,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-weight: 400;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -157,6 +158,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.35em;
 		line-height: 1.5em;
+		font-weight: bold;
 	}
 
 	h4 {
@@ -2036,6 +2038,7 @@ input, select, textarea {
 
 	header.major {
 		margin: 0 0 1em 0;
+		font-weight: bold;
 	}
 
 		header.major:after {
@@ -2387,6 +2390,20 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+/* Skills */
+
+	.skills { 
+		display: grid;
+		place-items: center;
+	}
+
+	.skills img {
+		max-width: 100%;
+		max-height: 100%;
+		height: auto;
+	}
+
 
 /* List */
 
@@ -3337,6 +3354,7 @@ input, select, textarea {
 			#two {
 				text-align: center;
 				color:#445169;
+				border-color: none;
 			}
 
 	}
@@ -3673,4 +3691,8 @@ input, select, textarea {
 
 #second-projects {
 	padding-top: 0;
+}
+
+#back-skills {
+	padding-top: 3em;
 }
